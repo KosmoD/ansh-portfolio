@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
 import { CgWebsite } from 'react-icons/cg'
 import { GiGamepad } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
