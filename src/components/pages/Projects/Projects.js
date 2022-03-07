@@ -4,7 +4,7 @@ import InfoSection from '../../InfoSection/InfoSection'
 
 import { homeObjOne, homeObjThree } from './Data';
 
-function Services() {
+function Projects() {
   return (
     <>
       <Pricing/>
@@ -14,4 +14,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Projects;
