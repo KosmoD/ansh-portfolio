@@ -4,8 +4,7 @@ import {
   FaDiscord,
   FaInstagram,
   FaYoutube,
-  FaTwitter,
-  FaLinkedin
+  FaTwitter,  
 } from 'react-icons/fa';
 import {
   FooterContainer,
