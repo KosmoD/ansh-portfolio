@@ -7,7 +7,7 @@ export const homeObjOne = {
     headline: 'Join today to receive an exclusive offer',
     description:
       'Get access to our exclusive diamond king package. Limited quantity available.',
-    buttonLabel: 'Sign Up',
+    buttonLabel: 'Github',
     imgStart: '',
     img: require('./pfp.png'),
     alt: 'Credit Card'
