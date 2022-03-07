@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
+import { CgWebsite } from 'react-icons/cg'
+import { GiGamepad } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
@@ -23,54 +24,48 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>My Projects:-</PricingHeading>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='//https://github.com/KosmoD/Web'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <CgWebsite />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Html Css website</PricingCardPlan>
+                <PricingCardCost>Free</PricingCardCost>
+                <PricingCardLength>Portfolio Website</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>An basic portfolio website.</PricingCardFeature>                  
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Code</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='//https://github.com/KosmoD/ansh-portfolio'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                  <CgWebsite />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>React.js website</PricingCardPlan>
+                <PricingCardCost>Free</PricingCardCost>
+                <PricingCardLength>Portfolio Website</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>A advance portfolio website build with React.js (This website).</PricingCardFeature>                  
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Code</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard to='//https://github.com/KosmoD/Web'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <GiGamepad />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Tic Tac Toe</PricingCardPlan>
+                <PricingCardCost>Free</PricingCardCost>
+                <PricingCardLength>javascript game</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Tic Tac Toe made with javascript.</PricingCardFeature>                  
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Code</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
