@@ -4,7 +4,7 @@ import {
   FaDiscord,
   FaInstagram,
   FaYoutube,
-  FaTwitter,  
+  FaGithub,
 } from 'react-icons/fa';
 import {
   FooterContainer,
@@ -52,8 +52,9 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Contact Ansh</FooterLinkTitle>
-            <FooterLink to='//discordapp.com/users/917016226541223937'>Discord</FooterLink>  
-            <FooterLink to='//'>Email</FooterLink>          
+            <FooterLink to='//discordapp.com/users/917016226541223937'>Discord</FooterLink>
+            <FooterLink to='//'>Email</FooterLink>
+            <FooterLink to='//https://github.com/KosmoD'>Github</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
@@ -66,10 +67,8 @@ function Footer() {
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
             <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
+            <FooterLink to='//https://github.com/KosmoD'>Github</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -91,12 +90,12 @@ function Footer() {
               href={
                 '//www.youtube.com/channel/UCBMf9l80P1yERjp4QVf4lKQ'
               }
-              
+
             >
               <FaYoutube />
             </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-              <FaTwitter />
+            <SocialIconLink href='/' target='_blank' aria-label='Github'>
+              <FaGithub />
             </SocialIconLink>
           </SocialIcons>
         </SocialMediaWrap>
