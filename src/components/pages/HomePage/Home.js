@@ -9,8 +9,7 @@ const Home = () => {
       <InfoSection {...HomeObjOne} />
       <InfoSection {...HomeObjTwo} />
       <InfoSection {...HomeObjThree} />
-      <Pricing />
-      <InfoSection {...HomeObjFour} />
+      <Pricing />      
     </>
   )
 }

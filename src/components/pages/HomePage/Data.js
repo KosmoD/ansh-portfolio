@@ -7,8 +7,7 @@ export const HomeObjOne = {
   topLine: 'Hello!',
   headline: 'I am Ansh Anoop',
   description:
-    '<Sentence about me>',
-  buttonLabel: 'lolz',
+    'I like to code!',  
   imgStart: '',
   img: require("./pics/pfp.png"),
   alt: Image,
@@ -21,11 +20,8 @@ export const HomeObjTwo = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Hello!',
-  headline: 'I am Ansh Anoop',
-  description:
-    '<Sentence about me>',
-  buttonLabel: 'lolz',
+  topLine: 'Photo..',
+  headline: 'This is meeee.',    
   imgStart: 'start',
   img: require("./pics/me.JPG"),
   alt: Image,
@@ -38,30 +34,13 @@ export const HomeObjThree = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Hello!',
-  headline: 'I am Ansh Anoop',
+  topLine: 'Info',
+  headline: 'Known Languages:-',
   description:
-    '<Sentence about me>',
-  buttonLabel: 'lolz',
+    'Javascript, React.js, Html/Css, Python (I am not too good at py.)',
+  buttonLabel: 'Github',
   imgStart: '',
   img: require("./pics/pfp.png"),
   alt: Image,
   start: ''
 };
-
-export const HomeObjFour = {
-  primary: true,
-  lightBg: true,
-  lightTopLine: false,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Hello!',
-  headline: 'I am Ansh Anoop',
-  description:
-    '<Sentence about me>',
-  buttonLabel: 'lolz',
-  imgStart: 'start',
-  img: require("./pics/pfp.png"),
-  alt: Image,
-  start: 'true'
-};  
